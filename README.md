@@ -1,6 +1,7 @@
 # Ball Tracking and Chasing Robot using ROS in Gazebo 
 
 ---
+![balltracking](https://user-images.githubusercontent.com/68025565/185442505-bea3f44d-56d6-4838-9a88-56bce8469236.gif)
 
 This project implements a simple ball tracking and chasing algorithm on a wafflebot in Gazebo. The algorithm subscribes from the `camera/rgb/image_raw` topic and then converts that image to a format accessible by `openCV`. The image processing steps are as follows:
 - Set a lower and upper bound on the known RGB value of the object (in this case, red)
